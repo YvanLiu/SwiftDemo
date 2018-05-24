@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		721BF10C20B69AEA00C6A25F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721BF10B20B69AEA00C6A25F /* AppDelegate.swift */; };
+		721BF10E20B69AEA00C6A25F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721BF10D20B69AEA00C6A25F /* ViewController.swift */; };
+		721BF11120B69AEA00C6A25F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 721BF10F20B69AEA00C6A25F /* Main.storyboard */; };
+		721BF11320B69AEC00C6A25F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 721BF11220B69AEC00C6A25F /* Assets.xcassets */; };
+		721BF11620B69AEC00C6A25F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 721BF11420B69AEC00C6A25F /* LaunchScreen.storyboard */; };
+		721BF13720B69CAC00C6A25F /* 美女14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 721BF11E20B69CAC00C6A25F /* 美女14.jpg */; };
+		721BF13820B69CAC00C6A25F /* 美女01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 721BF11F20B69CAC00C6A25F /* 美女01.jpg */; };
+		721BF13920B69CAC00C6A25F /* 美女15.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 721BF12020B69CAC00C6A25F /* 美女15.jpg */; };
+		721BF13A20B69CAC00C6A25F /* 美女03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 721BF12120B69CAC00C6A25F /* 美女03.jpg */; };
+		721BF13B20B69CAC00C6A25F /* 美女17.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 721BF12220B69CAC00C6A25F /* 美女17.jpg */; };
+		721BF13C20B69CAC00C6A25F /* 美女16.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 721BF12320B69CAC00C6A25F /* 美女16.jpg */; };
+		721BF13D20B69CAC00C6A25F /* 美女02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 721BF12420B69CAC00C6A25F /* 美女02.jpg */; };
+		721BF13E20B69CAC00C6A25F /* 美女06.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 721BF12520B69CAC00C6A25F /* 美女06.jpg */; };
+		721BF13F20B69CAC00C6A25F /* 美女12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 721BF12620B69CAC00C6A25F /* 美女12.jpg */; };
+		721BF14020B69CAC00C6A25F /* 美女13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 721BF12720B69CAC00C6A25F /* 美女13.jpg */; };
+		721BF14120B69CAC00C6A25F /* 美女07.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 721BF12820B69CAC00C6A25F /* 美女07.jpg */; };
+		721BF14220B69CAC00C6A25F /* 美女11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 721BF12920B69CAC00C6A25F /* 美女11.jpg */; };
+		721BF14320B69CAC00C6A25F /* 美女05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 721BF12A20B69CAC00C6A25F /* 美女05.jpg */; };
+		721BF14420B69CAC00C6A25F /* 美女04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 721BF12B20B69CAC00C6A25F /* 美女04.jpg */; };
+		721BF14520B69CAC00C6A25F /* 美女10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 721BF12C20B69CAC00C6A25F /* 美女10.jpg */; };
+		721BF14620B69CAC00C6A25F /* 美女09.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 721BF12D20B69CAC00C6A25F /* 美女09.jpg */; };
+		721BF14720B69CAC00C6A25F /* 美女21.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 721BF12E20B69CAC00C6A25F /* 美女21.jpg */; };
+		721BF14820B69CAC00C6A25F /* 美女20.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 721BF12F20B69CAC00C6A25F /* 美女20.jpg */; };
+		721BF14920B69CAC00C6A25F /* 美女08.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 721BF13020B69CAC00C6A25F /* 美女08.jpg */; };
+		721BF14A20B69CAC00C6A25F /* 美女22.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 721BF13120B69CAC00C6A25F /* 美女22.jpg */; };
+		721BF14B20B69CAC00C6A25F /* 美女23.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 721BF13220B69CAC00C6A25F /* 美女23.jpg */; };
+		721BF14C20B69CAC00C6A25F /* 美女24.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 721BF13320B69CAC00C6A25F /* 美女24.jpg */; };
+		721BF14D20B69CAC00C6A25F /* 美女18.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 721BF13420B69CAC00C6A25F /* 美女18.jpg */; };
+		721BF14E20B69CAC00C6A25F /* 美女19.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 721BF13520B69CAC00C6A25F /* 美女19.jpg */; };
+		721BF14F20B69CAC00C6A25F /* 美女25.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 721BF13620B69CAC00C6A25F /* 美女25.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		721BF10820B69AEA00C6A25F /* SwiftDemo20.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDemo20.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		721BF10B20B69AEA00C6A25F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		721BF10D20B69AEA00C6A25F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		721BF11020B69AEA00C6A25F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		721BF11220B69AEC00C6A25F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		721BF11520B69AEC00C6A25F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		721BF11720B69AEC00C6A25F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		721BF11E20B69CAC00C6A25F /* 美女14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女14.jpg"; sourceTree = "<group>"; };
+		721BF11F20B69CAC00C6A25F /* 美女01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女01.jpg"; sourceTree = "<group>"; };
+		721BF12020B69CAC00C6A25F /* 美女15.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女15.jpg"; sourceTree = "<group>"; };
+		721BF12120B69CAC00C6A25F /* 美女03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女03.jpg"; sourceTree = "<group>"; };
+		721BF12220B69CAC00C6A25F /* 美女17.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女17.jpg"; sourceTree = "<group>"; };
+		721BF12320B69CAC00C6A25F /* 美女16.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女16.jpg"; sourceTree = "<group>"; };
+		721BF12420B69CAC00C6A25F /* 美女02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女02.jpg"; sourceTree = "<group>"; };
+		721BF12520B69CAC00C6A25F /* 美女06.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女06.jpg"; sourceTree = "<group>"; };
+		721BF12620B69CAC00C6A25F /* 美女12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女12.jpg"; sourceTree = "<group>"; };
+		721BF12720B69CAC00C6A25F /* 美女13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女13.jpg"; sourceTree = "<group>"; };
+		721BF12820B69CAC00C6A25F /* 美女07.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女07.jpg"; sourceTree = "<group>"; };
+		721BF12920B69CAC00C6A25F /* 美女11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女11.jpg"; sourceTree = "<group>"; };
+		721BF12A20B69CAC00C6A25F /* 美女05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女05.jpg"; sourceTree = "<group>"; };
+		721BF12B20B69CAC00C6A25F /* 美女04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女04.jpg"; sourceTree = "<group>"; };
+		721BF12C20B69CAC00C6A25F /* 美女10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女10.jpg"; sourceTree = "<group>"; };
+		721BF12D20B69CAC00C6A25F /* 美女09.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女09.jpg"; sourceTree = "<group>"; };
+		721BF12E20B69CAC00C6A25F /* 美女21.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女21.jpg"; sourceTree = "<group>"; };
+		721BF12F20B69CAC00C6A25F /* 美女20.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女20.jpg"; sourceTree = "<group>"; };
+		721BF13020B69CAC00C6A25F /* 美女08.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女08.jpg"; sourceTree = "<group>"; };
+		721BF13120B69CAC00C6A25F /* 美女22.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女22.jpg"; sourceTree = "<group>"; };
+		721BF13220B69CAC00C6A25F /* 美女23.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女23.jpg"; sourceTree = "<group>"; };
+		721BF13320B69CAC00C6A25F /* 美女24.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女24.jpg"; sourceTree = "<group>"; };
+		721BF13420B69CAC00C6A25F /* 美女18.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女18.jpg"; sourceTree = "<group>"; };
+		721BF13520B69CAC00C6A25F /* 美女19.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女19.jpg"; sourceTree = "<group>"; };
+		721BF13620B69CAC00C6A25F /* 美女25.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女25.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		721BF10520B69AEA00C6A25F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		721BF0FF20B69AEA00C6A25F = {
+			isa = PBXGroup;
+			children = (
+				721BF10A20B69AEA00C6A25F /* SwiftDemo20 */,
+				721BF10920B69AEA00C6A25F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		721BF10920B69AEA00C6A25F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				721BF10820B69AEA00C6A25F /* SwiftDemo20.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		721BF10A20B69AEA00C6A25F /* SwiftDemo20 */ = {
+			isa = PBXGroup;
+			children = (
+				721BF11D20B69CAC00C6A25F /* 美女 */,
+				721BF10B20B69AEA00C6A25F /* AppDelegate.swift */,
+				721BF10D20B69AEA00C6A25F /* ViewController.swift */,
+				721BF10F20B69AEA00C6A25F /* Main.storyboard */,
+				721BF11220B69AEC00C6A25F /* Assets.xcassets */,
+				721BF11420B69AEC00C6A25F /* LaunchScreen.storyboard */,
+				721BF11720B69AEC00C6A25F /* Info.plist */,
+			);
+			path = SwiftDemo20;
+			sourceTree = "<group>";
+		};
+		721BF11D20B69CAC00C6A25F /* 美女 */ = {
+			isa = PBXGroup;
+			children = (
+				721BF11E20B69CAC00C6A25F /* 美女14.jpg */,
+				721BF11F20B69CAC00C6A25F /* 美女01.jpg */,
+				721BF12020B69CAC00C6A25F /* 美女15.jpg */,
+				721BF12120B69CAC00C6A25F /* 美女03.jpg */,
+				721BF12220B69CAC00C6A25F /* 美女17.jpg */,
+				721BF12320B69CAC00C6A25F /* 美女16.jpg */,
+				721BF12420B69CAC00C6A25F /* 美女02.jpg */,
+				721BF12520B69CAC00C6A25F /* 美女06.jpg */,
+				721BF12620B69CAC00C6A25F /* 美女12.jpg */,
+				721BF12720B69CAC00C6A25F /* 美女13.jpg */,
+				721BF12820B69CAC00C6A25F /* 美女07.jpg */,
+				721BF12920B69CAC00C6A25F /* 美女11.jpg */,
+				721BF12A20B69CAC00C6A25F /* 美女05.jpg */,
+				721BF12B20B69CAC00C6A25F /* 美女04.jpg */,
+				721BF12C20B69CAC00C6A25F /* 美女10.jpg */,
+				721BF12D20B69CAC00C6A25F /* 美女09.jpg */,
+				721BF12E20B69CAC00C6A25F /* 美女21.jpg */,
+				721BF12F20B69CAC00C6A25F /* 美女20.jpg */,
+				721BF13020B69CAC00C6A25F /* 美女08.jpg */,
+				721BF13120B69CAC00C6A25F /* 美女22.jpg */,
+				721BF13220B69CAC00C6A25F /* 美女23.jpg */,
+				721BF13320B69CAC00C6A25F /* 美女24.jpg */,
+				721BF13420B69CAC00C6A25F /* 美女18.jpg */,
+				721BF13520B69CAC00C6A25F /* 美女19.jpg */,
+				721BF13620B69CAC00C6A25F /* 美女25.jpg */,
+			);
+			path = "美女";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		721BF10720B69AEA00C6A25F /* SwiftDemo20 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 721BF11A20B69AEC00C6A25F /* Build configuration list for PBXNativeTarget "SwiftDemo20" */;
+			buildPhases = (
+				721BF10420B69AEA00C6A25F /* Sources */,
+				721BF10520B69AEA00C6A25F /* Frameworks */,
+				721BF10620B69AEA00C6A25F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftDemo20;
+			productName = SwiftDemo20;
+			productReference = 721BF10820B69AEA00C6A25F /* SwiftDemo20.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		721BF10020B69AEA00C6A25F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "柳玉峰";
+				TargetAttributes = {
+					721BF10720B69AEA00C6A25F = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 721BF10320B69AEA00C6A25F /* Build configuration list for PBXProject "SwiftDemo20" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 721BF0FF20B69AEA00C6A25F;
+			productRefGroup = 721BF10920B69AEA00C6A25F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				721BF10720B69AEA00C6A25F /* SwiftDemo20 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		721BF10620B69AEA00C6A25F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				721BF13B20B69CAC00C6A25F /* 美女17.jpg in Resources */,
+				721BF14A20B69CAC00C6A25F /* 美女22.jpg in Resources */,
+				721BF14220B69CAC00C6A25F /* 美女11.jpg in Resources */,
+				721BF11620B69AEC00C6A25F /* LaunchScreen.storyboard in Resources */,
+				721BF13820B69CAC00C6A25F /* 美女01.jpg in Resources */,
+				721BF13720B69CAC00C6A25F /* 美女14.jpg in Resources */,
+				721BF13C20B69CAC00C6A25F /* 美女16.jpg in Resources */,
+				721BF14120B69CAC00C6A25F /* 美女07.jpg in Resources */,
+				721BF14620B69CAC00C6A25F /* 美女09.jpg in Resources */,
+				721BF14020B69CAC00C6A25F /* 美女13.jpg in Resources */,
+				721BF14420B69CAC00C6A25F /* 美女04.jpg in Resources */,
+				721BF14920B69CAC00C6A25F /* 美女08.jpg in Resources */,
+				721BF14820B69CAC00C6A25F /* 美女20.jpg in Resources */,
+				721BF14B20B69CAC00C6A25F /* 美女23.jpg in Resources */,
+				721BF13A20B69CAC00C6A25F /* 美女03.jpg in Resources */,
+				721BF14720B69CAC00C6A25F /* 美女21.jpg in Resources */,
+				721BF14C20B69CAC00C6A25F /* 美女24.jpg in Resources */,
+				721BF14D20B69CAC00C6A25F /* 美女18.jpg in Resources */,
+				721BF13D20B69CAC00C6A25F /* 美女02.jpg in Resources */,
+				721BF13F20B69CAC00C6A25F /* 美女12.jpg in Resources */,
+				721BF13E20B69CAC00C6A25F /* 美女06.jpg in Resources */,
+				721BF14520B69CAC00C6A25F /* 美女10.jpg in Resources */,
+				721BF14E20B69CAC00C6A25F /* 美女19.jpg in Resources */,
+				721BF14F20B69CAC00C6A25F /* 美女25.jpg in Resources */,
+				721BF11320B69AEC00C6A25F /* Assets.xcassets in Resources */,
+				721BF14320B69CAC00C6A25F /* 美女05.jpg in Resources */,
+				721BF13920B69CAC00C6A25F /* 美女15.jpg in Resources */,
+				721BF11120B69AEA00C6A25F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		721BF10420B69AEA00C6A25F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				721BF10E20B69AEA00C6A25F /* ViewController.swift in Sources */,
+				721BF10C20B69AEA00C6A25F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		721BF10F20B69AEA00C6A25F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				721BF11020B69AEA00C6A25F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		721BF11420B69AEC00C6A25F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				721BF11520B69AEC00C6A25F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		721BF11820B69AEC00C6A25F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		721BF11920B69AEC00C6A25F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		721BF11B20B69AEC00C6A25F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U6TUG4H42Y;
+				INFOPLIST_FILE = SwiftDemo20/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Yvan.SwiftDemo20;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		721BF11C20B69AEC00C6A25F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U6TUG4H42Y;
+				INFOPLIST_FILE = SwiftDemo20/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Yvan.SwiftDemo20;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		721BF10320B69AEA00C6A25F /* Build configuration list for PBXProject "SwiftDemo20" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				721BF11820B69AEC00C6A25F /* Debug */,
+				721BF11920B69AEC00C6A25F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		721BF11A20B69AEC00C6A25F /* Build configuration list for PBXNativeTarget "SwiftDemo20" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				721BF11B20B69AEC00C6A25F /* Debug */,
+				721BF11C20B69AEC00C6A25F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 721BF10020B69AEA00C6A25F /* Project object */;
+}
